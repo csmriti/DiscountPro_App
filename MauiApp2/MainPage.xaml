@@ -7,6 +7,7 @@
         <DataTemplate>
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
+                         <Image Source="walmart.png" WidthRequest="50" HeightRequest="60" />
                         <Image Source="store_icon.png" WidthRequest="50" HeightRequest="60" /> 
                     <Label Text="{Binding}" VerticalOptions="Center" Margin="10,0,0,0" />
                 </StackLayout>

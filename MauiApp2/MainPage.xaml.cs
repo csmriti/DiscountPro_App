@@ -21,7 +21,8 @@ namespace MauiApp2
                 "Nike",
                 "Lululemon",
                 "Converse",
-                "Food Basics"
+                "Food Basics",
+                "Linen Chest"
             };
 
             storeListView.ItemsSource = stores;
