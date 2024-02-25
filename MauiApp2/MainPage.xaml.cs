@@ -13,13 +13,15 @@ namespace MauiApp2
 
         private void LoadStores()
         {
-            List<string> stores = new List<string>
+            List<string> stores = new List<string> // List of stores
             {
                 "Walmart",
                 "Costco",
                 "Real Canadian Superstore",
                 "Nike",
-                "Lululemon"
+                "Lululemon",
+                "Converse",
+                "Food Basics"
             };
 
             storeListView.ItemsSource = stores;
